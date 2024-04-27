@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.joswinprince</groupId>
+  <artifactId>Modifier</artifactId>
+  <version>1.0.1</version>
+  <name>modifier</name>
+	<build>
+    <plugins>
+     <plugin>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <version>0.4.0</version>
+          <goals>
+              <goal>publish</goal>
+            </goals>
+          <extensions>true</extensions>
+          <configuration>
+            <publishingServerId>central</publishingServerId>
+            <tokenAuth>true</tokenAuth>
+          </configuration>
+        </plugin>
+      <plugin>
+      
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <!-- Update to a version compatible with Java 8 -->
+        <version>3.8.1</version>
+        <configuration>
+          <!-- Set source and target compatibility to Java 1.8 -->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <!-- To attach java documents -->
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.3.0</version>
+            <executions>
+                <execution>
+                    <id>attach-javadocs</id>
+                    <goals>
+                        <goal>jar</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+        <!-- Including source code -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>3.2.1</version> <!-- Use the latest version available -->
+            <executions>
+                <execution>
+                    <id>attach-sources</id>
+                    <goals>
+                        <goal>jar</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+        <!-- To sign before deploying using gpg keys -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+                <execution>
+                    <id>sign-artifacts</id>
+                    <phase>verify</phase>
+                    <goals>
+                        <goal>sign</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+  </build>
+  
+   		<developers>
+	   		<developer>
+	            <id>1</id>
+	            <name>Joswin prince</name>
+	            <email>kingdomjoswin@gmail.com</email>
+	            <!-- Optionally, add URL -->
+	            <!-- <url>https://example.com/developer1</url> -->
+	        </developer>
+        </developers>
+            <licenses>
+		        <license>
+		            <name>MIT License</name>
+		            <url>https://opensource.org/licenses/MIT</url>
+		            <distribution>repo</distribution>
+		        </license>
+		    </licenses>
+		    <url>https://github.com/joswinprince/Modifier</url>
+		    <scm>
+		    	<url>https://github.com/joswinprince/Modifier</url>
+		    </scm>
+		     <description>This is a brief description of my project is to modify any certian folder
+		     to replace all occurence of a String with a new String
+		     </description>
+
+</project>

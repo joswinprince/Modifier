@@ -1,0 +1,43 @@
+@options
+@argfile
+-encoding
+'Cp1252'
+-protected
+-sourcepath
+'D:/eclipse-workspace-web/Modifier/src/main/java;D:/eclipse-workspace-web/Modifier/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/eclipse-workspace-web/Modifier/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'modifier 1.0.1 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'D:/eclipse-workspace-web/Modifier/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'modifier 1.0.1 API'
+'D:/eclipse-workspace-web/Modifier/src/main/java/com/tools/FileModifier.java'
+D:\eclipse-workspace-web\Modifier\src\main\java = 1711817470052
+D:\eclipse-workspace-web\Modifier\target\generated-sources\annotations = 1711897046147
+D:\eclipse-workspace-web\Modifier\target\apidocs\allclasses-index.html = 1711897054289
+D:\eclipse-workspace-web\Modifier\target\apidocs\allpackages-index.html = 1711897054293
+D:\eclipse-workspace-web\Modifier\target\apidocs\element-list = 1711897054225
+D:\eclipse-workspace-web\Modifier\target\apidocs\help-doc.html = 1711897054325
+D:\eclipse-workspace-web\Modifier\target\apidocs\index-all.html = 1711897054313
+D:\eclipse-workspace-web\Modifier\target\apidocs\index.html = 1711897054316
+D:\eclipse-workspace-web\Modifier\target\apidocs\jquery-ui.overrides.css = 1711897054372
+D:\eclipse-workspace-web\Modifier\target\apidocs\member-search-index.js = 1711897054299
+D:\eclipse-workspace-web\Modifier\target\apidocs\module-search-index.js = 1711897054295
+D:\eclipse-workspace-web\Modifier\target\apidocs\overview-tree.html = 1711897054269
+D:\eclipse-workspace-web\Modifier\target\apidocs\package-search-index.js = 1711897054297
+D:\eclipse-workspace-web\Modifier\target\apidocs\script.js = 1711897054333
+D:\eclipse-workspace-web\Modifier\target\apidocs\search.js = 1711897054337
+D:\eclipse-workspace-web\Modifier\target\apidocs\stylesheet.css = 1711897054330
+D:\eclipse-workspace-web\Modifier\target\apidocs\tag-search-index.js = 1711897054300
+D:\eclipse-workspace-web\Modifier\target\apidocs\type-search-index.js = 1711897054298
